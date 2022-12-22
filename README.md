@@ -24,15 +24,15 @@ Check the analysis of the performances of the implementation [here](https://cola
   mkdir build
   cd build
 ```
-4.Generate the makefiles
+4. Generate the makefiles
 ```
   cmake -G “MinGW Makefiles” ..
 ```
-5. build the project
+5. Build the project
 ```
   cmake --build .
 ```
-6. run the program
+6. Run the program
 ```
   mpiexec -np $num_proc$ .\parallel_grep.exe happy ..\resources\input_file.txt
 ```
