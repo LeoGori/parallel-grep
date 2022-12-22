@@ -1,9 +1,8 @@
 #include "grep.h"
 #include <fstream>
 #include "iostream"
-#include "mpi.h"
+#include <mpi.h>
 #include <cstring>
-#include <algorithm>
 
 void grep::get_lines(std::vector<std::string> &input_string, const std::string &file_name) {
 

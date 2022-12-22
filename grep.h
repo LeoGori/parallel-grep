@@ -1,6 +1,5 @@
 #include <vector>
 #include <string>
-#include <utility>
 
 #define LINELENGTH 80
 #define MASTER 0

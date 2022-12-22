@@ -1,6 +1,5 @@
 #include <mpi.h>
 #include "grep.h"
-#include <filesystem>
 #include <iostream>
 
 int main (int argc, char * argv[])
@@ -16,8 +15,6 @@ int main (int argc, char * argv[])
         file_name = argv[2];
         search_string = argv[1];
     }
-
-    std::cout << file_name << std::endl;
 
     grep::lines_found local_filtered_lines;
     unsigned local_lines_number;
