@@ -1,4 +1,4 @@
-# Parallel grep
+# grep parallelization with MPI
 This project consists in a simplified implementation of a **string matching algorithm**, with the introduction of parallel computation through the use of [**Microsoft MPI**](https://learn.microsoft.com/en-us/message-passing-interface/microsoft-mpi) APIs.
 
 ## Code Description
