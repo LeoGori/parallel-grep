@@ -4,7 +4,7 @@ This project consists in a simplified implementation of a **string matching algo
 ## Code Description
 The main files that build up the project are:
 - [**_grep.h_**](https://github.com/LeoGori/parallel-grep/blob/main/grep.h): class that defines the **grep** namespaces, which includes data types and functiions that are useful for the implementation of the algorithm.
-- [**_grep-main.h_**](https://github.com/LeoGori/parallel-grep/blob/main/grep-main.cpp): the entry point fo the program, which implements the string matching algorithm, with the management of multiple processes.
+- [**_grep-main.cpp_**](https://github.com/LeoGori/parallel-grep/blob/main/grep-main.cpp): the entry point fo the program, which implements the string matching algorithm, with the management of multiple processes.
 
 ## Language and APIs
 The code is entirely written in C++ programming language, with the use of the following libraries and APIs (omitting the standard ones):
