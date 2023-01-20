@@ -34,6 +34,6 @@ Check the analysis of the performances of the implementation [here](https://cola
 ```
 6. Run the program
 ```
-  mpiexec -np $num_proc$ .\parallel_grep.exe happy ..\resources\input_file.txt
+  mpiexec -np <num_proc> .\parallel_grep.exe <word_to_search> ..\resources\input_file.txt
 ```
-where \$ num_proc \$ needs to be replaced by a positive integer representing the number of processes that will execute the code
+where <num_proc> needs to be replaced by a positive integer representing the number of processes that will execute the code, and <word_to_search> needs to be replaced by a string representing the word to be found
